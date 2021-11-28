@@ -1,0 +1,65 @@
+*{
+    font-family: 'Caveat', cursive;
+}
+body{
+    background-image: url("bg.jpeg");
+    text-align: center;
+}
+.pirate{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    pointer-events: none;
+    transition: 2s;
+}
+.game{
+    position: relative;
+    /* background: hotpink; */
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+h1{
+    font-size: 70px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    background: rgb(14,27,172);
+background: linear-gradient(90deg, rgba(14,27,172,1) 21%, rgba(228,141,9,0.9640231092436975) 42%, rgba(173,213,35,1) 62%, rgba(226,24,225,0.6867121848739496) 82%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+    text-align: center;
+    /* width: 250px; */
+    display: inline-block;
+    border-radius: 25px;
+    /* margin: auto; */
+    padding: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+.restart{
+    width: 250px;
+    border-radius: 25px;
+    font-size: 40px;
+    background: rgba(255, 255, 255, 0.246);
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid white;
+    box-shadow:  0 0 10px black;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.restart:hover{
+    /* backdrop-filter: blur(10px); */
+    background: rgba(255, 255, 255, 0.705);
+}
